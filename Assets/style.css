@@ -1,11 +1,47 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #515151;
 }
 
-.logo {
-  width: 30vh;
-  margin-bottom: 15px;
+main {
+  width: 55%;
+  margin-inline: auto;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+img {
+  width: 100%;
+  margin: 00;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  color: #9a9a9a;
+}
+
+h3 {
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #10774e20;
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+ul li {
+  padding: 6px;
+  font-weight: 500;
 }
 
 .header {
@@ -13,9 +49,15 @@ body {
   width: 100%;
 }
 
-main {
-  width: 40%;
+.logo {
+  width: 30vh;
+  margin-bottom: 15px;
+}
+
+.title {
+  width: 80%;
   margin-inline: auto;
+  text-align: center;
 }
 
 .subtitle {
@@ -26,34 +68,21 @@ main {
   padding: 10px;
   color: #107777;
   margin-bottom: 60px;
-}
-
-h1 {
-  margin-inline: auto;
-  text-align: center;
-}
-
-figure {
-  margin: 0;
-  text-align: center;
-  margin-bottom: 20px;
-}
-img {
-  width: 100%;
-  margin: 00;
-}
-
-figcaption {
-  color: #9a9a9a;
+  padding: 15px;
 }
 
 .featured {
   border-left-style: solid;
   border-color: #ffd877;
   color: #c46940;
+  padding-left: 15px;
+  margin-bottom: 60px;
 }
 
 .link {
-  display: inline-block;
+  display: block;
   color: #107777;
+}
+.simplyrecipes {
+  margin-left: 3px;
 }
